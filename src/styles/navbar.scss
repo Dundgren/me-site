@@ -1,24 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-@mixin link-style {
-    a {
-        color: inherit;
-        display: block;
-        padding: 1em;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #139705;
-    }
-
-    a.active {
-        border-bottom: 4px solid #139705;
-        border-radius: 2px;
-    }
-}
-
-.header {
+header {
     display: grid;
     padding: 0 2em 0 2em;
 }
@@ -29,14 +11,10 @@
     align-self: center;
     font-family: 'Press Start 2P', sans-serif;
 
-    a {
-        padding: 0 !important;
-    }
-
     @include link-style;
 }
 
-.nav {
+nav {
     grid-row: 1 / 1;
     justify-self: end;
     align-self: end;
@@ -51,6 +29,10 @@
         display: inline-block;
 
         @include link-style;
+
+        a {
+            padding: 1em !important;
+        }
     }
 }
 
@@ -62,7 +44,7 @@
         text-align: center;
     }
 
-    .nav {
+    nav {
         grid-row: 2 / 3;
         justify-self: center;
         align-self: center;

@@ -1,7 +1,12 @@
 export default function Footer() {
     return (
-        <div className="Footer">
-            footer
-        </div>
+        <footer>
+            <a href="https://www.linkedin.com/in/daniel-lundgren-007b871b3/" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Dundgren" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-square-github"></i>
+            </a>
+        </footer>
     )
 }
