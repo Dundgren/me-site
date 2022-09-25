@@ -28,11 +28,18 @@ $secondary-color: #1fc20e;
 html {
     font-family: 'Roboto', sans-serif;
     overflow: scroll;
+    font-size: 100%;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.4rem;
 }
 
 body {
     background-color: rgb(239, 239, 239);
     color: rgb(50, 50, 50);
+    line-height: 1.4;
 }
 
 #root {
@@ -43,7 +50,8 @@ main {
     min-height: 80vh;
 
     h1 {
-        font-size: 4em;
+        font-size: 3.5em;
         text-align: center;
+        margin-bottom: 3.5rem;
     }
 }
