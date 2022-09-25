@@ -37,12 +37,14 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .title {
-        grid-row: 1 / 2;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-        margin: 1em 0 1em 0;
+    header {
+        h1 {
+            grid-row: 1 / 2;
+            justify-self: center;
+            align-self: center;
+            text-align: center;
+            margin: 1em 0 1em 0;
+        }
     }
 
     nav {
