@@ -3,15 +3,15 @@
 header {
     display: grid;
     padding: 0 2em 0 2em;
-}
 
-.title {
-    grid-row: 1 / 1;
-    margin: 0;
-    align-self: center;
-    font-family: 'Press Start 2P', sans-serif;
+    h1 {
+        grid-row: 1 / 1;
+        margin: 0;
+        align-self: center;
+        font-family: 'Press Start 2P', sans-serif;
 
-    @include link-style;
+        @include link-style;
+    }
 }
 
 nav {
