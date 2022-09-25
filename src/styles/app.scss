@@ -1,3 +1,6 @@
+$first-color: #139705;
+$secondary-color: #1fc20e;
+
 @mixin link-style {
     a {
         color: inherit;
@@ -5,11 +8,11 @@
         text-decoration: none;
 
         &:hover {
-            color: #1fc20e;
+            color: $secondary-color;
         }
 
         &.active {
-            border-bottom: 4px solid #1fc20e;
+            border-bottom: 4px solid $first-color;
             border-radius: 2px;
         }
     }
@@ -18,6 +21,8 @@
 @import "./header";
 @import "./layout";
 @import "./footer";
+@import "./home";
+@import "./contact";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
@@ -35,11 +40,9 @@ body {
 
 main {
     min-height: 80vh;
-    display: grid;
-}
 
-.round-image {
-    justify-self: center;
-    width: 25%;
-    border-radius: 50%;
+    h1 {
+        font-size: 4em;
+        text-align: center;
+    }
 }

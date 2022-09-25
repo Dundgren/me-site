@@ -2,9 +2,9 @@ import selfie from "../assets/img/danielclose.jpg";
 
 export default function Home() {
     return (
-        <>
+        <div className="home">
             <div>
-                <h1>About me</h1>
+                <h1>About Me</h1>
                 <p>
                 I'm a newly graduated web developer from Blekinge Tekniska Högskola. The education was a 2 year remote program which might not sound like much but because of perfect planning it was crammed full of practical knowledge! You can see all the courses on my CV. Most of my experience is with JavaScript and currently Vue.js is what I mostly turn to. I also have experience with PHP, Python and naturally HTML and CSS.
                 </p>
@@ -16,6 +16,6 @@ export default function Home() {
                 </p>
             </div>
             <img className="round-image" src={selfie} alt="Selfie of Daniel Lundgren" />
-        </>
+        </div>
     )
 }
