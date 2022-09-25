@@ -3,6 +3,7 @@ export default function Skills() {
         <>
             <h1>My Skills</h1>
 
+            <p>My resumé is acting as a placeholder for this page. Update coming soon!</p>
             <div>
                 <h2>Education</h2>
                 <ul>
