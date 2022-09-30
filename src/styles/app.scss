@@ -18,13 +18,6 @@ $secondary-color: #1fc20e;
     }
 }
 
-@import "./header";
-@import "./layout";
-@import "./footer";
-@import "./home";
-@import "./contact";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-
 html {
     font-family: 'Roboto', sans-serif;
     overflow: scroll;
@@ -48,10 +41,29 @@ body {
 
 main {
     min-height: 80vh;
+    display: grid;
 
     h1 {
         font-size: 3.5em;
         text-align: center;
         margin-bottom: 3.5rem;
+    }
+}
+
+.screenshot {
+    justify-self: center;
+    width: 50%;
+
+    img {
+        width: 100%;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        transition-duration: 0.5s;
+
+        &:hover {
+            -webkit-filter: none;
+            filter: none;
+            transition-duration: 0.5s;
+        }
     }
 }

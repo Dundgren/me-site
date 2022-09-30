@@ -1,3 +1,5 @@
+import chatboxImage from "../assets/img/chatbox.png";
+
 export default function Skills() {
     return (
         <>
@@ -63,6 +65,12 @@ export default function Skills() {
                     <li>MySQL</li>
                 </ul>
             </div>
+            <figure className="screenshot">
+                <a href="https://chatbox-react-tan.vercel.app" target="_blank" rel="noreferrer" aria-label="Link to ChatBox">
+                    <img src={chatboxImage} alt="Screenshot of Daniel Lundgrens app ChatBox." />
+                </a>
+                <figcaption>Please check out my little web-app ChatBox! It was originally created in Vue and later recreated using React. Both versions can be found on my github!</figcaption>
+            </figure>
         </>
     )
 }

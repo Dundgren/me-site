@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass-min": "sass src/styles/app.scss src/styles/app.css --style compressed",
-    "sass-watch": "sass src/styles/app.scss src/styles/app.css --watch --style compressed"
+    "sass-min": "sass src/styles/base.scss src/styles/app.css --style compressed",
+    "sass-watch": "sass src/styles/base.scss src/styles/app.css --watch --style compressed"
   },
   "eslintConfig": {
     "extends": [
